@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container p-5">
+    <div class="row align-items-center justify-content-center">
+        <aside>
+            <h2>Sign In</h2>
+            {% include 'forms.html' %}
+        </aside>
+    </div>
+</main>
+<section>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-4"></div>
+        <div class="col-3 p-10">
+            <img src="../../static/images/undraw_bibliophile_re_xarc.svg" class="d-flex align-items-center justify-content-center p-50 img-fluid" alt="Sign-in">
+        </div>
+        <div class="col-4"></div>
+    </div>
+</section>
+{% endblock %}
