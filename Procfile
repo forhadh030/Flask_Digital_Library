@@ -1,1 +1,1 @@
-web: gunicorn "app:app"pcommit -m "file
+web: gunicorn "app:app"
